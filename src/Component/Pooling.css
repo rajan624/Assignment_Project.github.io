@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    color: #222;
+    font-size: 24px; 
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    margin: 30px;
+  }
+  
+  .languages {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .language {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: blanchedalmond;
+    border: 1px solid #222;
+    margin: 2px;
+  }
